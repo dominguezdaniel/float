@@ -10,7 +10,7 @@
             cfg = $("#float_fb").data(),
             iframe = 'https://www.facebook.com/v2.9/plugins/page.php?',
             params = [],
-            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "http://pic.sopili.net/pub/float_fb/widget.png")
+            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "https://raw.githubusercontent.com/dominguezdaniel/float_fb/master/widget2.png")
             ;
         var val;
         for(var k in defaults)
